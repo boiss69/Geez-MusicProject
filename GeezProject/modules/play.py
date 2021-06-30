@@ -453,7 +453,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "GeezProject"
+        user.first_name = "BOI MUSIC"
     usar = user
     wew = usar.id
     try:
@@ -528,12 +528,20 @@ async def play(_, message: Message):
                 f"❌ **Lagu dengan durasi lebih dari** `{DURATION_LIMIT}` **menit tidak boleh diputar!**"
             )
         keyboard = InlineKeyboardMarkup(
-            [
+            [   
                 [
-                    InlineKeyboardButton("📌 Groups", url="https://t.me/GeezSupportGroup"),
-                    InlineKeyboardButton("⛑ Channel", url="https://t.me/GeezProjets"),
+                               
+                    InlineKeyboardButton('📜 ᴘʟᴀʏʟɪsᴛ', callback_data='playlist'),
+                    InlineKeyboardButton(
+                        text="📣 ᴄʜᴀɴɴᴇʟ",
+                        url=f"https://t.me/boimusicbotinfo/17")
                 ],
-                [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
+                [       
+                    InlineKeyboardButton(
+                        text="❌ ᴄʟᴏsᴇ",
+                        callback_data='cls')
+
+                ]  
             ]
         )
         file_name = get_file_name(audio)
@@ -575,12 +583,20 @@ async def play(_, message: Message):
         dlurl=url
         dlurl=dlurl.replace("youtube","youtubepp")
         keyboard = InlineKeyboardMarkup(
-            [
+            [   
                 [
-                    InlineKeyboardButton("📌 Groups", url="https://t.me/GeezSupportGroup"),
-                    InlineKeyboardButton("⛑ Channel", url="https://t.me/GeezProjects"),
+                               
+                    InlineKeyboardButton('📜 ᴘʟᴀʏʟɪsᴛ', callback_data='playlist'),
+                    InlineKeyboardButton(
+                        text="📣 ᴄʜᴀɴɴᴇʟ",
+                        url=f"https://t.me/boimusicbotinfo/17")
                 ],
-                [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
+                [       
+                    InlineKeyboardButton(
+                        text="❌ ᴄʟᴏsᴇ",
+                        callback_data='cls')
+
+                ]  
             ]
         )
         requested_by = message.from_user.first_name
@@ -654,12 +670,20 @@ async def play(_, message: Message):
             dlurl=url
             dlurl=dlurl.replace("youtube","youtubepp")
             keyboard = InlineKeyboardMarkup(
-            [
+            [   
                 [
-                    InlineKeyboardButton("📌 Groups", url="https://t.me/GeezSupportGroup"),
-                    InlineKeyboardButton("⛑ Channel", url="https://t.me/GeezProjects"),
+                               
+                    InlineKeyboardButton('📜 ᴘʟᴀʏʟɪsᴛ', callback_data='playlist'),
+                    InlineKeyboardButton(
+                        text="📣 ᴄʜᴀɴɴᴇʟ",
+                        url=f"https://t.me/boimusicbotinfo/17")
                 ],
-                [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
+                [       
+                    InlineKeyboardButton(
+                        text="❌ ᴄʟᴏsᴇ",
+                        callback_data='cls')
+
+                ]  
             ]
         )
             requested_by = message.from_user.first_name
@@ -715,7 +739,7 @@ async def ytplay(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "GeezProject"
+        user.first_name = "BOI MUSIC"
     usar = user
     wew = usar.id
     try:
@@ -792,12 +816,20 @@ async def ytplay(_, message: Message):
     dlurl=url
     dlurl=dlurl.replace("youtube","youtubepp")
     keyboard = InlineKeyboardMarkup(
-            [
+            [   
                 [
-                    InlineKeyboardButton("📌 Groups", url="https://t.me/GeezSupportGroup"),
-                    InlineKeyboardButton("⛑ Channel", url="https://t.me/GeezProjects"),
+                               
+                    InlineKeyboardButton('📜 ᴘʟᴀʏʟɪsᴛ', callback_data='playlist'),
+                    InlineKeyboardButton(
+                        text="📣 ᴄʜᴀɴɴᴇʟ",
+                        url=f"https://t.me/boimusicbotinfo/17")
                 ],
-                [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
+                [       
+                    InlineKeyboardButton(
+                        text="❌ ᴄʟᴏsᴇ",
+                        callback_data='cls')
+
+                ]  
             ]
         )
     requested_by = message.from_user.first_name
@@ -914,7 +946,7 @@ async def deezer(client: Client, message_: Message):
         url = songs.result[0].url
         artist = songs.result[0].artist
         duration = songs.result[0].duration
-        thumbnail = "https://telegra.ph/file/fa2cdb8a14a26950da711.png"
+        thumbnail = "https://telegra.ph/file/5edc15c4a1e73e612ea84.png"
 
     except:
         await res.edit("**Tidak Ditemukan Lagu Apa Pun!**")
@@ -929,7 +961,7 @@ async def deezer(client: Client, message_: Message):
     
     keyboard = InlineKeyboardMarkup(
         [
-            [InlineKeyboardButton(text="⛑ Channel", url="https://t.me/GeezProjects")],
+            [InlineKeyboardButton(text="⛑ Channel", url="https://t.me/boimusicbotinfo")],
         ]
     )
     file_path = await convert(wget.download(url))
@@ -1022,12 +1054,20 @@ async def lol_cb(b, cb):
     dlurl=url
     dlurl=dlurl.replace("youtube","youtubepp")
     keyboard = InlineKeyboardMarkup(
-            [
+            [   
                 [
-                    InlineKeyboardButton("📌 Groups", url="https://t.me/GeezSupportGroup"),
-                    InlineKeyboardButton("🛡️ Channel", url="https://t.me/GeezProjects"),
+                               
+                    InlineKeyboardButton('📜 ᴘʟᴀʏʟɪsᴛ', callback_data='playlist'),
+                    InlineKeyboardButton(
+                        text="📣 ᴄʜᴀɴɴᴇʟ",
+                        url=f"https://t.me/boimusicbotinfo/17")
                 ],
-                [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
+                [       
+                    InlineKeyboardButton(
+                        text="❌ ᴄʟᴏsᴇ",
+                        callback_data='cls')
+
+                ]  
             ]
         )
     requested_by = useer_name
