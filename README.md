@@ -24,7 +24,7 @@
 ### ⚔ Self-hosting (For Devs) 
 ```sh
 # Install Git First (apt-instll git)
-$ git clone https://github.com/vckyou/Geez-MusicProject
+$ git clone https://github.com/boiss69/Geez-MusicProject
 $ cd Geez-MusicProject
 # Upgrade sources
 # Install All Requirements 
@@ -37,7 +37,7 @@ $ python(3) -m GeezProject
 
 ### 💜 Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/vckyou/Geez-MusicProject/tree/master)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/boiss69/Geez-MusicProject/tree/master)
 
 Get pyrogram (p)  `SESSION` from here:
 [![Run on Repl.it](https://repl.it/badge/github/SpEcHiDe/GenerateStringSession)](https://repl.it/@vckyou/Geez-String-Session?lite=1&outputonly=1)
