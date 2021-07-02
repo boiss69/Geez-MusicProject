@@ -28,15 +28,18 @@ logging.basicConfig(level=logging.INFO)
 )
 async def start_(client: Client, message: Message):
     await message.reply_text(
-        f"""<b>Hai {message.from_user.first_name} saya adalah {PROJECT_NAME}\n
-Saya Adalah Bot Music Group, Yang dapat Memutar Lagu di Voice Chat Group Anda Dengan Mudah
-Saya Memiliki Banyak Fitur Seperti :
-• Memutar lagu,
-• Mendownload lagu,
-• Mencari lagu yang ingin didownload,
-• Gunakan perintah » /help « untuk mengetahui fiturnya.
+        f"""<b>Halo {message.from_user.first_name}, saya adalah {PROJECT_NAME}!\n
+Saya adalah Bot Music yang dirancang khusus untuk menemani anda memutar musik dalam grup melalui obrolan suara.
 
-📌 Special thanks to : {OWNER}
+Saya memiliki banyak fitur seperti:
+• Memutar lagu
+• Mendownload lagu
+• Mencari lagu yang ingin didownload
+• Tekan » /help « untuk mengetahui command.
+
+📌 Special thanks to: {OWNER}
+
+Fyi: Bot Music ini telah memenuhi batas undangan grup, terimakasih.
 </b>""",
 
 # Edit Yang Seharusnya Lu Edit Aja:D
