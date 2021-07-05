@@ -28,7 +28,7 @@ logging.basicConfig(level=logging.INFO)
 )
 async def start_(client: Client, message: Message):
     await message.reply_text(
-        f"""<b>Halo {message.from_user.first_name}, saya adalah {PROJECT_NAME}!\n
+        f"""Halo {message.from_user.first_name}, saya adalah {PROJECT_NAME}!\n
 Saya adalah Bot Music yang dirancang khusus untuk menemani anda memutar musik dalam grup melalui obrolan suara.
 
 Saya memiliki banyak fitur seperti:
@@ -38,9 +38,7 @@ Saya memiliki banyak fitur seperti:
 • Tekan » /help « untuk mengetahui command.
 
 📌 Special thanks to: {OWNER}
-
-Fyi: Bot Music ini telah memenuhi batas undangan grup, terimakasih.
-</b>""",
+""",
 
 # Edit Yang Seharusnya Lu Edit Aja:D
 # Tapi Jangan di Hapus Special Thanks To nya Yaaa :'D
