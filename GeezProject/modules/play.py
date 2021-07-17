@@ -453,7 +453,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "BOI MUSIC"
+        user.first_name = "Asisten"
     usar = user
     wew = usar.id
     try:
@@ -531,14 +531,14 @@ async def play(_, message: Message):
             [   
                 [
                                
-                    InlineKeyboardButton('📜 ᴘʟᴀʏʟɪsᴛ', callback_data='playlist'),
+                    InlineKeyboardButton('📜 Playlist', callback_data='playlist'),
                     InlineKeyboardButton(
-                        text="📣 ᴄʜᴀɴɴᴇʟ",
-                        url=f"https://t.me/boimusicbotinfo/17")
+                        text="📣 Channel",
+                        url=f"https://t.me/boimusicnetwork/17")
                 ],
                 [       
                     InlineKeyboardButton(
-                        text="❌ ᴄʟᴏsᴇ",
+                        text="❌ Tutup",
                         callback_data='cls')
 
                 ]  
@@ -586,17 +586,17 @@ async def play(_, message: Message):
             [   
                 [
                                
-                    InlineKeyboardButton('📜 ᴘʟᴀʏʟɪsᴛ', callback_data='playlist'),
+                    InlineKeyboardButton('📜 Playlist', callback_data='playlist'),
                     InlineKeyboardButton(
-                        text="📣 ᴄʜᴀɴɴᴇʟ",
-                        url=f"https://t.me/boimusicbotinfo/17")
+                        text="📣 Channel",
+                        url=f"https://t.me/boimusicnetwork/17")
                 ],
                 [       
                     InlineKeyboardButton(
-                        text="❌ ᴄʟᴏsᴇ",
+                        text="❌ Tutup",
                         callback_data='cls')
 
-                ]  
+                  
             ]
         )
         requested_by = message.from_user.first_name
@@ -673,17 +673,17 @@ async def play(_, message: Message):
             [   
                 [
                                
-                    InlineKeyboardButton('📜 ᴘʟᴀʏʟɪsᴛ', callback_data='playlist'),
+                    InlineKeyboardButton('📜 Playlist', callback_data='playlist'),
                     InlineKeyboardButton(
-                        text="📣 ᴄʜᴀɴɴᴇʟ",
-                        url=f"https://t.me/boimusicbotinfo/17")
+                        text="📣 Channel",
+                        url=f"https://t.me/boimusicnetwork/17")
                 ],
                 [       
                     InlineKeyboardButton(
-                        text="❌ ᴄʟᴏsᴇ",
+                        text="❌ Tutup",
                         callback_data='cls')
 
-                ]  
+                  
             ]
         )
             requested_by = message.from_user.first_name
@@ -819,17 +819,17 @@ async def ytplay(_, message: Message):
             [   
                 [
                                
-                    InlineKeyboardButton('📜 ᴘʟᴀʏʟɪsᴛ', callback_data='playlist'),
+                    InlineKeyboardButton('📜 Playlist', callback_data='playlist'),
                     InlineKeyboardButton(
-                        text="📣 ᴄʜᴀɴɴᴇʟ",
-                        url=f"https://t.me/boimusicbotinfo/17")
+                        text="📣 Channel",
+                        url=f"https://t.me/boimusicnetwork/17")
                 ],
                 [       
                     InlineKeyboardButton(
-                        text="❌ ᴄʟᴏsᴇ",
+                        text="❌ Tutup",
                         callback_data='cls')
 
-                ]  
+                  
             ]
         )
     requested_by = message.from_user.first_name
@@ -961,7 +961,7 @@ async def deezer(client: Client, message_: Message):
     
     keyboard = InlineKeyboardMarkup(
         [
-            [InlineKeyboardButton(text="⛑ Channel", url="https://t.me/boimusicbotinfo")],
+            [InlineKeyboardButton(text="⛑ Channel", url="https://t.me/boimusicnetwork")],
         ]
     )
     file_path = await convert(wget.download(url))
@@ -1057,14 +1057,14 @@ async def lol_cb(b, cb):
             [   
                 [
                                
-                    InlineKeyboardButton('📜 ᴘʟᴀʏʟɪsᴛ', callback_data='playlist'),
+                    InlineKeyboardButton('📜 Playlist', callback_data='playlist'),
                     InlineKeyboardButton(
-                        text="📣 ᴄʜᴀɴɴᴇʟ",
-                        url=f"https://t.me/boimusicbotinfo/17")
+                        text="📣 Channel",
+                        url=f"https://t.me/boimusicnetwork/17")
                 ],
                 [       
                     InlineKeyboardButton(
-                        text="❌ ᴄʟᴏsᴇ",
+                        text="❌ Tutup",
                         callback_data='cls')
 
                 ]  
@@ -1087,7 +1087,7 @@ async def lol_cb(b, cb):
         await cb.message.delete()
         await b.send_photo(chat_id,
             photo="final.png",
-            caption = f"🏷 **Judul:** [{title[:60]}]({url})\n⏱ **Durasi:** {duration}\n💡 **Status:** Antrian Ke `{position}`\n" \
+            caption = f"🏷 **Judul:** [{title[:60]}]({url})\n⏱ **Durasi:** {duration}\n💡 **Status:** Antrian ke `{position}`\n" \
                     + f"🎼 **Request Dari:** {r_by.mention}",
                    reply_markup=keyboard,
         )
