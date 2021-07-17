@@ -596,7 +596,7 @@ async def play(_, message: Message):
                         text="❌ Tutup",
                         callback_data='cls')
 
-                  
+                ]     
             ]
         )
         requested_by = message.from_user.first_name
@@ -683,7 +683,7 @@ async def play(_, message: Message):
                         text="❌ Tutup",
                         callback_data='cls')
 
-                  
+                ]
             ]
         )
             requested_by = message.from_user.first_name
@@ -829,7 +829,7 @@ async def ytplay(_, message: Message):
                         text="❌ Tutup",
                         callback_data='cls')
 
-                  
+                ]      
             ]
         )
     requested_by = message.from_user.first_name
