@@ -137,12 +137,12 @@ async def start(client: Client, message: Message):
 )
 async def help(client: Client, message: Message):
     await message.reply_text(
-        """**Klik Tombol dibawah untuk Melihat Cara Menggunakan Bot**""",
+        """Klik Tombol dibawah untuk Melihat Cara Menggunakan Bot""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "📜 Cara Menggunakan BOT 📜", url="https://t.me/boimusicbotinfo/17"
+                        "📜 Cara Menggunakan BOT 📜", url="https://t.me/boimusicnetwork/17"
                     )
                 ]
             ]
@@ -161,7 +161,7 @@ async def reload(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "Channel Support", url=f"https://t.me/boimusicbotinfo/17"
+                        "Channel Support", url=f"https://t.me/boimusicnetwork/17"
                     ),
                     InlineKeyboardButton(
                         "Created By", url=f"https://t.me/boiii999"
