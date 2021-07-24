@@ -52,7 +52,7 @@ Saya memiliki banyak fitur seperti:
                     InlineKeyboardButton(
                         "💬 Channel Updates", url=f"https://t.me/{UPDATES_CHANNEL}"), 
                     InlineKeyboardButton(
-                        "🎁 Donate", url=f"https://t.me/{SUPPORT_GROUP}")
+                        "🎁 Donate", url=f"https://{SUPPORT_GROUP}")
                 ]
             ]
         ),
