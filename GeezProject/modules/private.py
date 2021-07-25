@@ -93,7 +93,7 @@ def map(pos):
         button = [
             [InlineKeyboardButton("➕ Tambahkan saya ke Grup Anda ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
             [InlineKeyboardButton(text = '💬 Channel Updates', url=f"https://t.me/{UPDATES_CHANNEL}"),
-             InlineKeyboardButton(text = '🔰 Owner', url=f"https://t.me/{SUPPORT_GROUP}")],
+             InlineKeyboardButton(text = '🔰 Owner', url=f"https://t.me/boiii999")],
             [InlineKeyboardButton(text = '🛠 Source Code 🛠', url=f"https://{SOURCE_CODE}")],
             [InlineKeyboardButton(text = '«', callback_data = f"help+{pos-1}")]
         ]
@@ -114,7 +114,7 @@ def map(pos):
 )
 async def start(client: Client, message: Message):
     await message.reply_text(
-        "💁🏻‍♂️ **Apakah Anda ingin mencari Link YouTube?**",
+        "💁🏻‍♂️ Apakah Anda ingin mencari Link YouTube?",
         reply_markup=InlineKeyboardMarkup(
             [   
                 [    
@@ -161,10 +161,10 @@ async def reload(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "Channel Support", url=f"https://t.me/boimusicnetwork/17"
+                        "Channel", url=f"https://t.me/boimusicnetwork/17"
                     ),
                     InlineKeyboardButton(
-                        "Created By", url=f"https://t.me/boiii999"
+                        "Donasi", url=f"https://saweria.co/ariefmarvelous"
                     )
                 ]
             ]
