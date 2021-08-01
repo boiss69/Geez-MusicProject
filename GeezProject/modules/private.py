@@ -37,6 +37,8 @@ Saya memiliki banyak fitur seperti:
 • Mencari lagu yang ingin didownload
 • Tekan » /help « untuk mengetahui command.
 
+Status: FULL!
+
 📌 Special thanks to: {OWNER}
 """,
 
@@ -93,7 +95,7 @@ def map(pos):
         button = [
             [InlineKeyboardButton("➕ Tambahkan saya ke Grup Anda ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
             [InlineKeyboardButton(text = '💬 Channel Updates', url=f"https://t.me/{UPDATES_CHANNEL}"),
-             InlineKeyboardButton(text = '🔰 Owner', url=f"https://t.me/boiii999")],
+             InlineKeyboardButton(text = '🔰 Owner', url=f"https://t.me/boiable")],
             [InlineKeyboardButton(text = '🛠 Source Code 🛠', url=f"https://{SOURCE_CODE}")],
             [InlineKeyboardButton(text = '«', callback_data = f"help+{pos-1}")]
         ]
@@ -142,7 +144,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "📜 Cara Menggunakan BOT 📜", url="https://t.me/boimusicnetwork/17"
+                        "📜 Cara Menggunakan BOT 📜", url="https://t.me/boimusicnetwork/12"
                     )
                 ]
             ]
@@ -161,7 +163,7 @@ async def reload(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "Channel", url=f"https://t.me/boimusicnetwork/17"
+                        "Channel", url=f"https://t.me/boimusicnetwork/12"
                     ),
                     InlineKeyboardButton(
                         "Donasi", url=f"https://saweria.co/ariefmarvelous"
